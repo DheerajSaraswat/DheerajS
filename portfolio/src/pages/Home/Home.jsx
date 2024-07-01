@@ -92,6 +92,7 @@ function Home() {
         </Link>
         <Link
           to={"https://github.com/DheerajSaraswat/spotify-clone"}
+          target="_blank"
           className="w-full group hover:bg-[#d1f9e4] hover:scale-90 duration-300 flex justify-between rounded-lg px-4 py-2"
         >
           <div>
