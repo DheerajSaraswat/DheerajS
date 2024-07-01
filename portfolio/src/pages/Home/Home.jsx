@@ -60,17 +60,6 @@ function Home() {
       </div>
       <div className="text-lg tracking-tight text-[#434040] mb-5">Projects</div>
       <div className="w-full text-[#746f72] tracking-tight flex flex-col gap-3">
-        <Link className="w-full group hover:bg-[#d1f9e4] hover:scale-90 duration-300 flex justify-between rounded-lg px-4 py-2">
-          <div>
-            <p className="text-md text-black group-hover:text-[#00997e]">
-              Spotify Clone
-            </p>
-            <p className="text-sm ">
-              A clone to manage your playlist using Spotify API
-            </p>
-          </div>
-          <GoArrowUpRight className="text-[#00997e] opacity-0 group-hover:opacity-100" />
-        </Link>
         <Link
           to={"https://crypto-dashboard-dheeraj.netlify.app/"}
           target="_blank"
@@ -97,6 +86,20 @@ function Home() {
             </p>
             <p className="text-sm ">
               Grab important keywords from the provided text or file
+            </p>
+          </div>
+          <GoArrowUpRight className="text-[#00997e] opacity-0 group-hover:opacity-100" />
+        </Link>
+        <Link
+          to={"https://github.com/DheerajSaraswat/spotify-clone"}
+          className="w-full group hover:bg-[#d1f9e4] hover:scale-90 duration-300 flex justify-between rounded-lg px-4 py-2"
+        >
+          <div>
+            <p className="text-md text-black group-hover:text-[#00997e]">
+              Spotify Clone
+            </p>
+            <p className="text-sm ">
+              A clone to manage your playlist using Spotify API
             </p>
           </div>
           <GoArrowUpRight className="text-[#00997e] opacity-0 group-hover:opacity-100" />
