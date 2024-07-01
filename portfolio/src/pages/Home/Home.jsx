@@ -25,7 +25,12 @@ function Home() {
         to upskill myself as a developer.
       </p>
       <div className="text-[#746f72] mb-8">
-        <Link className="flex group tracking-tighter"
+        <Link
+          to={
+            "https://drive.google.com/file/d/1tH4O7PSc5dMwbXNPPuzOE3nfyWqSXJcy/view?usp=sharing"
+          }
+          target="_blank"
+          className="flex group tracking-tighter"
         >
           <span className="group-hover:text-[#00997e] group-hover:underline">
             resume
