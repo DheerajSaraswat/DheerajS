@@ -1,0 +1,9 @@
+@media(max-width:650px){
+    .home{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .name{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,47 @@
+@media (max-width: 650px) {
+    .title{
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1 rem;
+    }
+    .definition{
+        font-size: .9rem;
+        padding-left: 1rem;
+        padding-right: 1 rem;
+    }
+    .content{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: .8rem;
+    }
+    .skills{
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .skillSet{
+        font-size: .8rem;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+    }
+    .inspiration{
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .inspiration-p{
+        font-size: .8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .personal{
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .personal-ul{
+        font-size: .8rem;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+    }
+}
