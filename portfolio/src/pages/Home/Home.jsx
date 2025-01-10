@@ -5,6 +5,21 @@ import "../Home/Home.css"
 
 function Home() {
 
+  const age = ()=>{
+    const birthDate = new Date(2004, 10, 20);
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDifference = today.getMonth() - birthDate.getMonth();
+
+    if (
+      monthDifference < 0 ||
+      (monthDifference === 0 && today.getDate() < birthDate.getDate())
+    ) {
+      age--;
+    }
+
+    return age;
+  }
 
   return (
     <div className="home">
@@ -15,7 +30,7 @@ function Home() {
         designer • developer • programmer
       </p>
       <p className="text-[#746f72] text-sm mb-6">
-        Hi there, I'm Dheeraj, a 19 y/o CS undergrad student at BPIT Delhi. I
+        Hi there, I'm Dheeraj, a {age()} y/o CS undergrad student at BPIT Delhi. I
         love creating cool stuff in{" "}
         <span className="text-black">web development</span> (MERN Stack). I'm
         also a <span className="text-black">designer</span>, passionate about{" "}
@@ -27,7 +42,7 @@ function Home() {
       <div className="text-[#746f72] mb-8">
         <Link
           to={
-            "https://drive.google.com/file/d/1tH4O7PSc5dMwbXNPPuzOE3nfyWqSXJcy/view?usp=sharing"
+            "https://drive.google.com/file/d/1Uvkkra445pWhBn7yFlOBVc0sbbGIPdDW/view?usp=sharing"
           }
           target="_blank"
           className="flex group tracking-tighter"
