@@ -30,8 +30,8 @@ function Home() {
         designer • developer • programmer
       </p>
       <p className="text-[#746f72] text-sm mb-6">
-        Hi there, I'm Dheeraj, a {age()} y/o CS undergrad student at BPIT Delhi. I
-        love creating cool stuff in{" "}
+        Hi there, I'm Dheeraj, a {age()} y/o CS undergrad student at BPIT Delhi.
+        I love creating cool stuff in{" "}
         <span className="text-black">web development</span> (MERN Stack). I'm
         also a <span className="text-black">designer</span>, passionate about{" "}
         <span className="text-black">UI design</span>, with a minimalist touch.
@@ -76,6 +76,25 @@ function Home() {
       <div className="text-lg tracking-tight text-[#434040] mb-5">Projects</div>
       <div className="w-full text-[#746f72] tracking-tight flex flex-col gap-3">
         <Link
+          to={"https://ds-blog-space.netlify.app/"}
+          target="_blank"
+          className="w-full group hover:bg-[#d1f9e4] hover:scale-90 duration-300 flex justify-between rounded-lg px-4 py-2"
+        >
+          <div>
+            <p className="text-md text-black group-hover:text-[#00997e]">
+              BlogSpace
+            </p>
+            <p className="text-sm ">
+              A modern blogging platform with dynamic pages, Google
+              authentication, and mobile-responsive design.
+              <br />Integrated advanced features like a nested comment system,
+              real-time notifications, and blog analytics to enhance user
+              engagement.
+            </p>
+          </div>
+          <GoArrowUpRight className="text-[#00997e] opacity-0 group-hover:opacity-100" />
+        </Link>
+        <Link
           to={"https://crypto-dashboard-dheeraj.netlify.app/"}
           target="_blank"
           className="w-full group hover:bg-[#d1f9e4] hover:scale-90 duration-300 flex justify-between rounded-lg px-4 py-2"
@@ -101,21 +120,6 @@ function Home() {
             </p>
             <p className="text-sm ">
               Grab important keywords from the provided text or file
-            </p>
-          </div>
-          <GoArrowUpRight className="text-[#00997e] opacity-0 group-hover:opacity-100" />
-        </Link>
-        <Link
-          to={"https://github.com/DheerajSaraswat/spotify-clone"}
-          target="_blank"
-          className="w-full group hover:bg-[#d1f9e4] hover:scale-90 duration-300 flex justify-between rounded-lg px-4 py-2"
-        >
-          <div>
-            <p className="text-md text-black group-hover:text-[#00997e]">
-              Spotify Clone
-            </p>
-            <p className="text-sm ">
-              A clone to manage your playlist using Spotify API
             </p>
           </div>
           <GoArrowUpRight className="text-[#00997e] opacity-0 group-hover:opacity-100" />
