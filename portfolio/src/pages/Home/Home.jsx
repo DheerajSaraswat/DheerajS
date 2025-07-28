@@ -42,7 +42,7 @@ function Home() {
       <div className="text-[#746f72] mb-8">
         <Link
           to={
-            "https://drive.google.com/file/d/13xRJS8t0CWLXM67IIJClhOqMK-y7qE7W/view?usp=sharing"
+            "https://drive.google.com/file/d/1wfV0RhVi3gw0Dm-F0CKDcBDDKXnl4VRx/view?usp=sharing"
           }
           target="_blank"
           className="flex group tracking-tighter"
@@ -87,7 +87,8 @@ function Home() {
             <p className="text-sm ">
               A modern blogging platform with dynamic pages, Google
               authentication, and mobile-responsive design.
-              <br />Integrated advanced features like a nested comment system,
+              <br />
+              Integrated advanced features like a nested comment system,
               real-time notifications, and blog analytics to enhance user
               engagement.
             </p>
