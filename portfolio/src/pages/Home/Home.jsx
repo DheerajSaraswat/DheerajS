@@ -42,7 +42,7 @@ function Home() {
       <div className="text-[#746f72] mb-8">
         <Link
           to={
-            "https://drive.google.com/file/d/1hBb3IvJ4O2eSeuFm_muoTK3zBWf2qmzg/view?usp=sharing"
+            "https://drive.google.com/file/d/1Z1R_VSVJmXA52MgTDXd_IXqo9GHR1e4D/view?usp=sharing"
           }
           target="_blank"
           className="flex group tracking-tighter"
